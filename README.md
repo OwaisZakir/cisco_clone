@@ -6,7 +6,7 @@
   <meta name="description" content="Cisco website clone using React, Next.js, Tailwind CSS and GSAP. Created by Owais Zakir under mentorship of Zubair Shaikh.">
   <meta name="keywords" content="Cisco Clone, React, Next.js, Tailwind CSS, GSAP, Owais Zakir, Zubair Shaikh, Frontend Project">
   <meta name="author" content="Owais Zakir">
-  <title>Cisco Clone - Owais Zakir</title>
+ 
 </head>
 <body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 2rem auto; padding: 1rem; color: #222;">
 
