@@ -16,9 +16,20 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[70vh] flex items-center overflow-hidden text-white font-light">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
+    <section className="relative flex flex-col lg:min-h-[70vh] overflow-hidden text-black lg:text-white font-light">
+      {/* Mobile & Tablet Image (Top Banner) */}
+      <div className="relative w-full h-[300px] lg:hidden">
+        <Image
+          src="/assets/hero/hero-image.webp"
+          alt="Hero background"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
+
+      {/* Background Image for Large Screens */}
+      <div className="hidden lg:block lg:absolute lg:inset-0 lg:-z-10">
         <Image
           src="/assets/hero/hero-image.webp"
           alt="Hero background"
@@ -29,21 +40,26 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-10 z-10">
-        <div ref={contentRef} className="py-16">
-          <p className="text-[1rem] font-semibold mb-3 text-white/90">
+      <div className="container mx-auto border-b border-gray-400 lg:border-b-0 px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 z-10 lg:min-h-[70vh]">
+        <div
+          ref={contentRef}
+          className="py-10 sm:py-16 flex flex-col justify-center lg:items-start lg:justify-center"
+        >
+          <p className="text-[1rem] font-semibold mb-3 text-black lg:text-white/90">
             San Diego, CA | June 8–12
           </p>
-          <h1 className="text-5xl sm:text-6xl font-light leading-snug mb-2">
+          <h1 className="text-4xl sm:text-5xl font-light leading-snug mb-2">
             Secure your spot
           </h1>
-          <p className="text-white/80 text-base sm:text-lg mb-6 max-w-md font-extralight">
+          <p className="text-black lg:text-white/80 text-base sm:text-lg mb-6 max-w-md  lg:mx-0 font-extralight">
             Join us at Cisco Live in San Diego to get the skills you need to
             transform your career.
           </p>
-          <button className="bg-white text-blue-950 font-semibold py-2.5 px-6 rounded-full hover:bg-gray-100 transition">
-            Register now
-          </button>
+          <div>
+            <button className="bg-blue-950 text-white  lg:bg-white lg:text-blue-950 font-semibold py-2.5 px-6 rounded-full hover:bg-gray-100 transition">
+              Register now
+            </button>
+          </div>
         </div>
       </div>
     </section>
