@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cisco website clone using React, Next.js, Tailwind CSS and GSAP. Created by Owais Zakir under mentorship of Zubair Shaikh.">
+  <meta name="keywords" content="Cisco Clone, React, Next.js, Tailwind CSS, GSAP, Owais Zakir, Zubair Shaikh, Frontend Project">
+  <meta name="author" content="Owais Zakir">
+ 
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 2rem auto; padding: 1rem; color: #222;">
 
-## Getting Started
+  <h1>🌐 Cisco Website Clone | By Owais Zakir</h1>
+  <p>A pixel-perfect, fully responsive front-end <strong>clone of Cisco’s homepage</strong> built with <strong>Next.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>GSAP</strong>. This project replicates the structure and animations of Cisco's site using modern tools.</p>
 
-First, run the development server:
+  <h2>🔗 Live Preview</h2>
+  <ul>
+    <li><a href="http://cisco-clone.surge.sh/" target="_blank">Live Site</a></li>
+    <li><a href="https://github.com/OwaisZakir/cisco_clone" target="_blank">GitHub Repository</a></li>
+  </ul>
 
-```bash
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li>⚛️ React.js</li>
+    <li>🚀 Next.js</li>
+    <li>💨 Tailwind CSS</li>
+    <li>🎞️ GSAP</li>
+    <li>🌐 Surge</li>
+  </ul>
+
+  <h2>✅ Features</h2>
+  <ul>
+    <li>Fully responsive layout</li>
+    <li>Modern GSAP animations</li>
+    <li>Clean component architecture</li>
+    <li>Dark themed footer</li>
+    <li>Mobile-first design</li>
+  </ul>
+
+  <h2>📁 Project Structure</h2>
+  <pre><code>
+cisco_clone/
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── styles/
+├── tailwind.config.js
+├── next.config.js
+└── package.json
+  </code></pre>
+
+  <h2>🧠 Project Purpose</h2>
+  <p>This project was created as part of my frontend development practice under the guidance of <a href="https://www.linkedin.com/in/zubair-shaik" target="_blank">Zubair Shaikh</a>. The goal was to replicate a real-world layout and enhance animation and responsive design skills.</p>
+
+  <h2>👨‍💻 Author</h2>
+  <p>
+    <strong>Owais Zakir</strong> – Front-end Developer<br>
+    <a href="https://www.linkedin.com/in/owaiszakir" target="_blank">LinkedIn Profile</a> | 
+    <a href="https://github.com/OwaisZakir" target="_blank">GitHub</a>
+  </p>
+
+  <h2>🙏 Mentor</h2>
+  <p>
+    <strong>Zubair Shaikh</strong><br>
+    <a href="https://www.linkedin.com/in/zubair-shaik" target="_blank">LinkedIn Profile</a>
+  </p>
+
+  <h2>📦 Installation</h2>
+  <pre><code>
+git clone https://github.com/OwaisZakir/cisco_clone.git
+cd cisco_clone
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  </code></pre>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <h2>🧪 Future Enhancements</h2>
+  <ul>
+    <li>SEO meta tags and OG data</li>
+    <li>ARIA roles for accessibility</li>
+    <li>Optimized images using Next/Image</li>
+    <li>404 page and error handling</li>
+  </ul>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  <h2>📃 License</h2>
+  <p>This project is for educational and demonstration purposes only. It is not affiliated with or endorsed by Cisco Systems, Inc.</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</body>
+</html>
